@@ -44,3 +44,11 @@ Script che si occupa di salvare il punteggio.
 
 Gli unici file da toccare sono **GetPunteggi.cs** e **SalvaPunteggio.cs**  
 Contengono gli OnTriggerEnter.
+
+### GetPunteggi.cs
+
+Modificare la variabile url con quella fornita per mail.
+
+### SalvaPunteggio.cs
+
+Modificare le variabili url con quelle fornita per mail.
