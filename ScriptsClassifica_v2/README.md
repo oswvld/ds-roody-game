@@ -16,3 +16,25 @@ Script per la gestione e visualizzazione della classifica.
 - ResultSalvaPunteggio.cs
 - SalvaPunteggio.cs
 ```
+
+
+### GetPunteggi.cs
+
+Script che si occupa di ottenere i primi 250 punteggi in classifica.  
+Modificabile in futuro nel caso cambi il brief.
+
+### Punteggio.cs
+
+Script Model
+
+### ResultGetPunteggi.cs
+
+Script Model
+
+### ResultSalvaPunteggio.cs
+
+Script Model
+
+### SalvaPunteggio.cs
+
+Script che si occupa di salvare il punteggio.
