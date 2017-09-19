@@ -42,5 +42,5 @@ Script che si occupa di salvare il punteggio.
 
 ## Come usare il package
 
-Gli unici file da toccare sono **GetPunteggi.cs** e **SalvaPunteggio.cs**
-Contengono gli OnTriggerEnter
+Gli unici file da toccare sono **GetPunteggi.cs** e **SalvaPunteggio.cs**  
+Contengono gli OnTriggerEnter.
