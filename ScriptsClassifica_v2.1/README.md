@@ -27,3 +27,8 @@ Script per la gestione e visualizzazione della classifica.
 1) Modificare **url_five** in FivePunteggi.cs, con link indicato per mail
 2) Modificare **url_save** in SalvaPunteggio.cs, con link indicato per mail
 3) Modificare **url_check** in CheckPunteggio.cs, con link indicato per mail
+
+
+
+### CheckPunteggio.cs
+
