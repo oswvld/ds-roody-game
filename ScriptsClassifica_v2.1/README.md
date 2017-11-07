@@ -1,4 +1,4 @@
-# ScriptsClassifica_v2
+# ScriptsClassifica_v2.1
 
 Version: 2.1
 Data: 06/10
@@ -30,7 +30,7 @@ Script per la gestione e visualizzazione della classifica.
 
 
 
-### CheckPunteggio.cs
+# CheckPunteggio.cs
 
 Script che si occupa di controllare se il punteggio da salvare rientra tra i primi 250 in classifica
 
