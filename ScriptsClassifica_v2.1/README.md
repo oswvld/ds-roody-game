@@ -72,3 +72,4 @@ void OnTriggerEnter(Collider2D other) {
 	salvaPunteggio(nome, tempo_rimasto);
 }
 ```
+- modificare la funzione success()
