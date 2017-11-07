@@ -50,3 +50,6 @@ void OnTriggerEnter(Collider2D other) {
 	checkPunteggio (nuovo_punteggio);
 }
 ```
+
+- modificare funzione inClassifica()
+- modificare funzione nonInClassifica()
