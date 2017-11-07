@@ -19,7 +19,7 @@ Script per la gestione e visualizzazione della classifica.
 - ResultGetPunteggi.cs
 - ResultSalvaPunteggio.cs
 - SalvaPunteggio.cs
-- **PunteggioController (OBJ prefab, da mettere in scena per far funzionare tutto!)**
+- PunteggioController (OBJ prefab, da mettere in scena per far funzionare tutto!)
 ```
 
 
