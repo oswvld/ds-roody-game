@@ -22,13 +22,6 @@ Script per la gestione e visualizzazione della classifica.
 ```
 
 
-### TO-DO list (generale)
-
-1) Modificare **url_five** in FivePunteggi.cs, con link indicato per mail
-2) Modificare **url_save** in SalvaPunteggio.cs, con link indicato per mail
-3) Modificare **url_check** in CheckPunteggio.cs, con link indicato per mail
-
-
 
 
 
@@ -38,6 +31,7 @@ Script per la gestione e visualizzazione della classifica.
 Script che si occupa di controllare se il punteggio da salvare rientra tra i primi 250 in classifica
 
 #### To-Do
+- Modificare url_five con link indicato per mail
 - aggiungere OnCollisionEnter2D() o OnTriggerEnter2D()
 ```
 void OnCollisionEnter2D(Collision2D other) {
@@ -62,6 +56,7 @@ void OnTriggerEnter(Collider2D other) {
 Script che si occupa di controllare se il punteggio da salvare rientra tra i primi 250 in classifica
 
 #### To-Do
+- Modificare url_save con link indicato per mail
 - aggiungere OnCollisionEnter2D() o OnTriggerEnter2D()
 ```
 void OnCollisionEnter2D(Collision2D other) {
@@ -73,3 +68,13 @@ void OnTriggerEnter(Collider2D other) {
 }
 ```
 - modificare la funzione success()
+
+
+
+# FivePunteggi.cs
+
+Script che si occupa di prendere i punteggi adiacenti a quelli del giocatore corrente, e del suo punteggio
+
+#### To-Do
+- Modificare url_check con link indicato per mail
+- Modifica PunteggiTrovati()
