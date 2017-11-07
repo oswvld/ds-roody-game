@@ -30,6 +30,9 @@ Script per la gestione e visualizzazione della classifica.
 
 
 
+
+
+
 # CheckPunteggio.cs
 
 Script che si occupa di controllare se il punteggio da salvare rientra tra i primi 250 in classifica
