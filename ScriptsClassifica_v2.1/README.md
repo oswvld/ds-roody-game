@@ -39,4 +39,11 @@ Script che si occupa di controllare se il punteggio da salvare rientra tra i pri
 
 #### To-Do
 - aggiungere OnCollisionEnter2D()
+```
+void OnCollisionEnter2D(Collision2D other) {
+
+	float nuovo_punteggio = 9f;
+	checkPunteggio (nuovo_punteggio);
+}
+```
 - aggiungere OnTriggerEnter2D()
