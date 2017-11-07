@@ -38,11 +38,15 @@ Script per la gestione e visualizzazione della classifica.
 Script che si occupa di controllare se il punteggio da salvare rientra tra i primi 250 in classifica
 
 #### To-Do
-- aggiungere OnCollisionEnter2D()
+- aggiungere OnCollisionEnter2D() o OnTriggerEnter2D()
 ```
 void OnCollisionEnter2D(Collision2D other) {
 	float nuovo_punteggio = /* variabile che indica il tempo rimasto/punteggio */;
 	checkPunteggio(nuovo_punteggio);
 }
+
+void OnTriggerEnter(Collider2D other) {
+	float nuovo_punteggio = 9f;
+	checkPunteggio (nuovo_punteggio);
+}
 ```
-- aggiungere OnTriggerEnter2D()
