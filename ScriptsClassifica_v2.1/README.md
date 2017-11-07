@@ -46,7 +46,7 @@ void OnCollisionEnter2D(Collision2D other) {
 }
 
 void OnTriggerEnter(Collider2D other) {
-	float nuovo_punteggio = 9f;
+	float nuovo_punteggio = /* variabile che indica il tempo rimasto/punteggio */;
 	checkPunteggio (nuovo_punteggio);
 }
 ```
