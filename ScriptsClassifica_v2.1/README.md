@@ -22,7 +22,7 @@ Script per la gestione e visualizzazione della classifica.
 ```
 
 
-### TO-DO list
+### TO-DO list (generale)
 
 1) Modificare **url_five** in FivePunteggi.cs, con link indicato per mail
 2) Modificare **url_save** in SalvaPunteggio.cs, con link indicato per mail
@@ -53,3 +53,22 @@ void OnTriggerEnter(Collider2D other) {
 
 - modificare funzione inClassifica()
 - modificare funzione nonInClassifica()
+
+
+
+
+# SalvaPunteggio.cs
+
+Script che si occupa di controllare se il punteggio da salvare rientra tra i primi 250 in classifica
+
+#### To-Do
+- aggiungere OnCollisionEnter2D() o OnTriggerEnter2D()
+```
+void OnCollisionEnter2D(Collision2D other) {
+	salvaPunteggio(nome, tempo_rimasto);
+}
+
+void OnTriggerEnter(Collider2D other) {
+	salvaPunteggio(nome, tempo_rimasto);
+}
+```
