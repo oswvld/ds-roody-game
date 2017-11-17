@@ -15,3 +15,6 @@ Questa è la repo Github con tutti gli script per il gioco!
 - Classifica
 
 #### ScriptsClassifica_v2.2
+- Salvataggio punteggi
+- Classifica (con posizioni)
+- Primi 5 punti (con posizioni)
