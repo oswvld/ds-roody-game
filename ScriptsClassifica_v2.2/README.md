@@ -20,8 +20,8 @@ Scripts per la gestione e visualizzazione della classifica.
 - ResultSalvaPunteggio.cs
 - SalvaPunteggio.cs
 - PunteggioController (OBJ prefab, da mettere in scena per far funzionare tutto!)
-- **FirstFive.cs**
-- **ResultFirstFive.cs**
+- FirstFive.cs
+- ResultFirstFive.cs
 ```
 
 
@@ -76,6 +76,16 @@ void OnTriggerEnter(Collider2D other) {
 # FivePunteggi.cs
 
 Script che si occupa di prendere i punteggi adiacenti a quelli del giocatore corrente, e del suo punteggio
+
+#### To-Do
+- Modificare url_check con link indicato per mail
+- Modifica PunteggiTrovati()
+
+
+
+# FirstFive.cs
+
+Script che si occupa di prendere i primi 5 in classifica
 
 #### To-Do
 - Modificare url_check con link indicato per mail
